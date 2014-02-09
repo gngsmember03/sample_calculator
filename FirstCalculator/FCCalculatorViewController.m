@@ -44,6 +44,7 @@
     }
 }
 
+
 - (IBAction)changeDigitButtonClicked:(id)sender {
     NSLog(@"%s",__FUNCTION__);
     storedNumber = [_labelNumber.text floatValue];
